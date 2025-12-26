@@ -9,9 +9,9 @@ import lombok.Setter;
 @Setter
 public class GroupDto {
 
-    @NotBlank(message = "Group name is required")
+    @NotBlank(message = "Group is required")
     @Size(max = 50)
-    private String groupName;
+    private String GroupName;
 
     @Size(max = 150)
     private String description;

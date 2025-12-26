@@ -6,6 +6,8 @@ import com.schoolsoftware.entity.SubjectEntity;
 import java.util.List;
 
 public interface SubjectService {
-    List<SubjectEntity> getAll();
-    SubjectEntity create(SubjectDto dto);
+
+    List<SubjectEntity> getAllSubjects();
+
+    SubjectEntity createSubject(SubjectDto dto);
 }
