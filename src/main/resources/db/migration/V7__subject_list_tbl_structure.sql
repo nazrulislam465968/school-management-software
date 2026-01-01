@@ -12,8 +12,7 @@ CREATE TABLE IF NOT EXISTS subject_list_tbl (
     subject_code VARCHAR(20) NOT NULL,
     description VARCHAR(255),
 
-    UNIQUE (class_id, subject_code),
-    UNIQUE (class_id, subject_shortname)
+    UNIQUE (class_id, subject_code)
 );
 
 CREATE INDEX IF NOT EXISTS idx_subject_class_id
